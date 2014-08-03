@@ -1,0 +1,240 @@
+﻿/*
+Theme Name: Laro
+Description: Responsive One Page Template
+Author: Bluminethemes
+Theme URI: http://bluminethemes.com/preview/html/laro/
+Author URI: https://creativemarket.com/Bluminethemes
+Version: 1.5
+*/
+
+
+/* ==================================================================
+	Less
+================================================================== */
+
+@maincolor: #5AA9CE;
+@color: #474747;
+@linecolor: #bbbbbb;
+@coloroverlay: #bbbbbb;
+
+
+/* ==================================================================
+	Typography
+================================================================== */
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.color-dark {
+    color: @color;
+}
+
+.font-ultra {
+    font-size: 70px;
+}
+
+.font-big {
+    font-size: 52px;
+}
+
+.highlight {
+    color: @maincolor;
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+    text-transform: none;
+}
+
+
+/* ==================================================================
+	Background
+================================================================== */
+
+.bg-white {
+	background: #fff !important;
+}
+
+.bg-transparent {
+	background: transparent !important;
+}
+
+.color-overlay {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.9;
+	background: @coloroverlay;
+}
+
+.border-section {
+	border-top: 60px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 60px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* ==================================================================
+	Buttons
+================================================================== */
+
+.button-border-color {
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: @maincolor;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    border: 2px solid @maincolor;
+    border-radius: 5px;
+    letter-spacing: 0.20em;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.button-border-color:hover {
+    color: #fff;
+    text-decoration: none;
+    background: @maincolor;
+    border: 2px solid @maincolor;
+}
+
+.button-color {
+    width: auto;
+    height: auto;
+    background: @maincolor;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    border: 2px solid @maincolor;
+    border-radius: 5px;
+    letter-spacing: 0.20em;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.button-color:hover {
+    color: @maincolor;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid @maincolor;
+}
+
+.button-border-white {
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    letter-spacing: 0.20em;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.button-border-white:hover {
+    color: @maincolor;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.button-white {
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    color: @maincolor;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    letter-spacing: 0.20em;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.button-white:hover {
+    color: @maincolor;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+
+/* ==================================================================
+	Misc
+================================================================== */
+
+.line-white {
+	display: block;
+	width: 200px;
+	height: 1px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	opacity: 0.7;
+}
+
+.line-color {
+	display: block;
+	width: 200px;
+	height: 1px;
+	background: @linecolor;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	opacity: 0.7;
+}
